@@ -112,5 +112,9 @@ a:hover {
 }
 /*todo confirm that htis is the ideal color choice*/
 
-
+@media only screen and (max-width: 991px) {
+    #contact-details {
+        text-align: center;
+    }
+}
 
