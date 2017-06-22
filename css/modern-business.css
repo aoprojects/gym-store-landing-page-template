@@ -106,7 +106,18 @@ a:hover {
 .navbar-toggle {
     border: none;
 }
-
+.portfolio-item-title {
+    text-align: left;
+    color: green;
+    position: relative;
+    top: 42px;
+    z-index: 3;
+    background-color: rgba(225,225,225,0.7);
+    width: 200px;
+    padding: 5px;
+    whitespace: nowrap;
+    font-size: 16px;
+}
 .theme-color {
     color: green;
 }
