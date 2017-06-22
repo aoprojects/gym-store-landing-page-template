@@ -66,8 +66,8 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Contact
-                    <small>Subheading</small>
+                <h1 class="page-header">Contact Us
+                    <!-- <small>To purchase equipment...</small> -->
                 </h1>
             </div>
         </div>
@@ -84,12 +84,11 @@
                     58-89 57th Street<br>Maspeth, NY 11378<br>
                 </p>
                 <p><i class="fa fa-phone"></i> 
-                    <abbr title="Phone">P</abbr>: 1.718.366.7804</p> 
+                    <abbr title="Phone">Phone</abbr>: 1.718.366.7804</p> 
                 <p><i class="fa fa-envelope-o"></i> 
-                    <abbr title="Email">E</abbr>: <a href="mailto:sales@gymstore.com">sales@gymstore.com</a>
+                    <abbr title="Email">Email</abbr>: <a href="mailto:sales@gymstore.com">sales@gymstore.com</a>
                 </p>
-                <p><i class="fa fa-clock-o"></i> 
-                 
+                <!-- <p><i class="fa fa-clock-o"></i> TODO put working hours here -->
                 
             </div>
         </div>
@@ -99,36 +98,36 @@
         <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
         <div class="row">
             <div class="col-md-8">
-                <h3>Send us a Message</h3>
+                <h3>Send a Quick Message</h3>
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Full Name:</label>
+                            <label>You Name:</label>
                             <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Phone Number:</label>
+                            <label>Your Phone:</label>
                             <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Email Address:</label>
+                            <label>Your Email:</label>
                             <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Message:</label>
+                            <label>How can we help you?</label>
                             <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
                         </div>
                     </div>
                     <div id="success"></div>
                     <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" class="btn btn-success">Send Message</button>
                 </form>
             </div>
 
@@ -141,7 +140,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; CybexArcTrainer.info</p>
+                    <small>Copyright &copy; CybexArcTrainer.info</small>
                 </div>
             </div>
         </footer>
